@@ -1,0 +1,7 @@
+/* 스타일링 하고 싶은 요소 : h1*/
+/* 속성 : font-size, text-align */
+/* 속성 값 : 64px, center */
+h1 {
+  font-size: 64px;
+  text-align: center;
+}
