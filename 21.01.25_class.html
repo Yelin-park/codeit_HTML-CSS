@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>id/class test</title>
+    <meta charset="utf-8" />
+    <style>
+      /* 태그가 아닌 클래스로 하려면 .클래스명 한 뒤 스타일 적용 */
+      /* 클래스는 중복클래스 가능하지만 id는 중복클래스 불가능 */
+      /* 여러 요소를 스타일링 -> 클래스 */
+      /* 한 요소만 스타일링 하고 싶으면 -> id */
+      .big-blue-text {
+        font-size: 64px;
+        color: blue;
+      }
+      .centered-text {
+        text-align: center;
+      }
+      /* id는 #id명 한 뒤 스타일 적용 */
+      #best-text {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>여기는 클래스</h2>
+    <p class="centered-text">첫 번째 문단</p>
+    <p>두 번째 문단</p>
+    <p class="big-blue-text">세 번째 문단</p>
+    <p>네 번째 문단</p>
+    <p class="big-blue-text centered-text">다섯 번째 문단</p>
+
+    <h2>여기는 id</h2>
+    <p id="best-text">첫 번째 문단</p>
+    <p>두 번째 문단</p>
+    <p id="best-text">세 번째 문단</p>
+    <p>네 번째 문단</p>
+    <p>다섯 번째 문단</p>
+  </body>
+</html>
+
+<!-- 클래스 vs 아이디
+같은 클래스 이름을 여러 요소가 가질 수 있지만, 같은 아이디를 여러 요소가 공유할 수는 없습니다.
+한 요소가 여러 클래스를 가질 수 있지만, 한 요소는 하나의 아이디만 가질 수 있습니다. (단, 한 요소가 클래스도 여러 개 갖고 아이디도 하나 가질 수 있습니다!) -->
